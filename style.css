@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+html{
+    scroll-snap-type: y mandatory;
+}
+section{
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+
+}
+.hero{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/pipi.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+}
+.login-btn{
+    text-decoration: none;
+    color:white;
+    margin-right:15px;
+    font-weight: 400;
+    
+
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color:white;
+    background-image: linear-gradient(45deg,blue,aqua);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content{
+    margin-top: 10%;
+    max-width:600px;
+}
+.content h2{
+    font-size: 45px;
+    color:white;
+}
+.content h4{
+    font-size: 30px ;
+    color: white;
+}
+.content p{
+    margin: 10px 0 30px;
+    color:white;
+    animation-delay:0.5s; 
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.feature-img{
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+
+
+}
+.feature-img .anim{
+    animation-delay: 1.5s;
+}
+.anim{
+    opacity:0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+
+} 
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.villan{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/pipi.jpg);
+    background-size: cover;
+    padding: 10px 10%;
+    position: relative;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+
+}
+img{
+    max-width: 500px;
+    float: left;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 25px;
+
+}
+
+.text{
+    color: red;
+    align-items: center;
+}
+.container pre{
+    font-size: 28px;
+    font-family: serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.naruto{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/pipi.jpg);
+    background-size: cover;
+    padding: 10px 10%;
+    position: relative;
+}
+.mango img{
+    border-radius: 200px;
+    margin-bottom: 15px;
+
+    
+}
+.mango h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 32PX;
+    
+
+}
+.mango p{
+    color:aqua;
+    font-size: 28px;
+}
+.mango h2 {
+    color: white;
+    font-size:25px ;
+
+}
+.mango h3{
+    color: white;
+    font-size: 18px;
+}
+.mango h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.apple img{
+    border-radius: 200px;
+    
+}
+.apple p{
+    color: aqua;
+    font-size: 28px;
+}
+.apple h2 {
+    color: white;
+    font-size:25px ;
+
+}
+.apple h3{
+    color: white;
+    font-size: 18px;
+}
+.apple h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.orange img{
+    border-radius: 200px;
+    
+}
+.orange p{
+    color: aqua;
+    font-size: 28px;
+}
+.orange h2 {
+    color: white;
+    font-size:25px ;
+
+}
+.orange h3{
+    color: white;
+    font-size: 18px;
+}
+.orange h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.open{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/pipi.jpg);
+    background-size: cover;
+    padding: 10px 10%;
+    position: relative;
+}
+.bar h1{
+    color: aqua;
+    font-size: 40px;
+    font-weight: 70;
+    font-family: cursive;
+
+}
+.bar img {
+    border-radius: 200px;
+    margin-bottom: 40px;
+
+}
+.bar h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+}
+.bar h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 50;
+    margin-bottom: 40px;
+}
+.bar1 img {
+    border-radius: 200px;
+margin-bottom: 60px;
+}
+.bar1 h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+}
+.bar1 h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 50;
+    margin-bottom: 40px;
+}
+.bar2 img {
+    border-radius: 200px;
+margin-bottom: 60px;
+}
+.bar2 h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+}
